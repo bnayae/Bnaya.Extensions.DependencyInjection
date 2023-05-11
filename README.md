@@ -1,5 +1,10 @@
 # Dependency Injection Extensions 
 
+[![Build & Deploy NuGet](https://github.com/bnayae/Bnaya.Extensions.DependencyInjection/actions/workflows/Deploy.yml/badge.svg)](https://github.com/bnayae/Bnaya.Extensions.DependencyInjection/actions/workflows/Deploy.yml)  
+
+[![NuGet](https://img.shields.io/nuget/v/Bnaya.Extensions.DependencyInjection.svg)](https://www.nuget.org/packages/Bnaya.Extensions.DependencyInjection/) 
+
+
 ## Keyed Dependency Injection using .NET
 
 You can register your components as:
