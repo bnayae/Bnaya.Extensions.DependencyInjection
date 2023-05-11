@@ -13,5 +13,16 @@
                             _serviceProvider.GetServices<IKeyedBridge<T>>()
                                 .First(m => m.Key == key)
                                 .Target;
+
+        bool IKeyed<T>.TryGet(string key, out T value){
+            var result = _serviceProvider.GetServices<IKeyedBridge<T>>()
+                                .FirstOrDefault(m => m.Key == key)
+                                ?.Target ?? default;
+#pragma warning disable CS8601 
+            value = result ?? default;
+#pragma warning restore CS8601
+
+            return value != null;
+        }
     }
 }

@@ -26,13 +26,15 @@ public class TestController : ControllerBase
     [HttpGet("a")]
     public string GetA()
     {
-        return _selector["A"].Id;
+        return _selector["A"].Id; // throw if "A" not registered
     }
 
     [HttpGet("b")]
     public string GetB()
     {
-        return _selector["B"].Id;
+        if(_selector.TryGet("B", out IFunctionality val))
+            return val.Id;
+        return "Not registered";
     }
 }
 ```
