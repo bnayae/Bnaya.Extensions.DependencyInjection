@@ -1,0 +1,46 @@
+<Project>
+	<PropertyGroup>
+		<Version>1.1.49</Version>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<LangVersion>11.0</LangVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Configurations>Debug;Release</Configurations>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/bnayae/Bnaya.Extensions.DependencyInjection</RepositoryUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageIconUrl />
+		<PackageTags>bnaya, DI, Injection, IoC, Dependency</PackageTags>
+		<Copyright>Bnaya Eshet ©</Copyright>
+		<Authors>Bnaya Eshet</Authors>
+		<Company>Bnaya Eshet</Company>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<IncludeSource>True</IncludeSource>
+		<IncludeSymbols>True</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageReleaseNotes></PackageReleaseNotes>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<Using Include="System.Collections" />
+		<Using Include="System.Collections.Immutable" />
+		<Using Include="System.Collections.Concurrent" />
+		<Using Include="System.Text.Json" />
+		<Using Include="System.Net.Http" />
+		<Using Include="System.Net.Http.Json" />
+	</ItemGroup>
+</Project>

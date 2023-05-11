@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Bnaya.Extensions.DependencyInjection\Bnaya.Extensions.DependencyInjection.csproj" />
+	</ItemGroup>
+
+
+</Project>
