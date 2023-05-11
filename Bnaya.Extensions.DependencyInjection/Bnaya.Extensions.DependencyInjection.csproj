@@ -24,10 +24,4 @@
 	</ItemGroup>
 
 
-	<ItemGroup>
-		<None Update="icon.png">
-			<PackagePath></PackagePath>
-			<Pack>True</Pack>
-		</None>
-	</ItemGroup>
 </Project>

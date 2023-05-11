@@ -20,6 +20,7 @@
 		<Copyright>Bnaya Eshet ©</Copyright>
 		<Authors>Bnaya Eshet</Authors>
 		<Company>Bnaya Eshet</Company>
+		<IsPackable>true</IsPackable>
 	</PropertyGroup>
 
 	<PropertyGroup>
